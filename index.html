@@ -6,22 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OhMyFood</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Shrikhand&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Shrikhand&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Shrikhand&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
-    <script src="app.js"></script>
-
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <header>
         <div class="contHeader">
             <div class="contLogo">
@@ -38,9 +28,8 @@
             <button class="btnExplorer">Explorez nos restaurants</button>
         </div>
     </header>
-
     <main>
-        <div class="contFonctionnement">
+        <section class="contFonctionnement">
             <div class="titreWrapper">
                 <h2 class="titreFonctionnement">Fonctionnement</h2>
             </div>
@@ -61,39 +50,37 @@
                     <p>Dégustez au restaurant</p>
                 </div>
             </div>
-        </div>
-
-        <div class="contRestaurants">
+        </section>
+        <section class="contRestaurants">
             <h2 class="titreRestaurant">Restaurants</h2>
             <div class="restaurants">
                 <div class="rest">
-                    <img src="images/image_restaurant_1.jpg" alt="" class="imgRestaurant">
+                    <img src="images/image_restaurant_1.jpg" alt="Ménilmontant" class="imgRestaurant">
                     <h2>La palette du goût</h2>
                     <p>Ménilmontant</p>
-                    <img src="images/coeur.png" alt="icone_coeur" class="icon-heart" onclick="toggleHeart(this)"></img>
+                    <img src="images/coeur.png" alt="icone_coeur" class="icon-heart" onclick="toggleHeart(this)">
                 </div>
                 <div class="rest">
-                    <img src="images/image_restaurant_2.jpg" alt="" class="imgRestaurant">
+                    <img src="images/image_restaurant_2.jpg" alt="Charonne" class="imgRestaurant">
                     <h2>La note enchantée</h2>
                     <p>Charonne</p>
-                    <img src="images/coeur.png" alt="icone_coeur" class="icon-heart" onclick="toggleHeart(this)"></img>
+                    <img src="images/coeur.png" alt="icone_coeur" class="icon-heart" onclick="toggleHeart(this)">
                 </div>
                 <div class="rest">
-                    <img src="images/image_restaurant_3.jpg" alt="" class="imgRestaurant">
+                    <img src="images/image_restaurant_3.jpg" alt="Cité Rouge" class="imgRestaurant">
                     <h2>A la française</h2>
                     <p>Cité Rouge</p>
-                    <img src="images/coeur.png" alt="icone_coeur" class="icon-heart" onclick="toggleHeart(this)"></img>
+                    <img src="images/coeur.png" alt="icone_coeur" class="icon-heart" onclick="toggleHeart(this)">
                 </div>
                 <div class="rest">
-                    <img src="images/image_restaurant_4.jpg" alt="" class="imgRestaurant">
+                    <img src="images/image_restaurant_4.jpg" alt="Folie-Méricourt" class="imgRestaurant">
                     <h2>Le délice des sens</h2>
                     <p>Folie-Méricourt</p>
-                    <img src="images/coeur.png" alt="icone_coeur" class="icon-heart" onclick="toggleHeart(this)"></img>
+                    <img src="images/coeur.png" alt="icone_coeur" class="icon-heart" onclick="toggleHeart(this)">
                 </div>
             </div>
-        </div>
+        </section>
     </main>
-
     <footer>
         <div class="contFooter">
             <h2 class="logoFooter">ohmyfood</h2>
@@ -108,8 +95,7 @@
         </div>
     </footer>
 
-
-
+    <script src="app.js"></script>
 
 </body>
 
