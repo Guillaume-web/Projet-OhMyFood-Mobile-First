@@ -1,0 +1,107 @@
+@import "../global/mixins";
+
+.contHeader {
+  height: 113px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  .contLogo {
+    @include centre-flex();
+    height: 63px;
+    width: 100%;
+    box-shadow: 0px 2px 4px 0px #00000026;
+    z-index: 2;
+
+    h1 {
+      @include centre-flex();
+      font-family: "Shrikhand", serif;
+      font-size: 30px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 44px;
+      letter-spacing: 0em;
+      height: 36px;
+      width: 197px;
+      color: #101010;
+    }
+  }
+
+  .localisation {
+    @include centre-flex();
+    height: 50px;
+    width: 100%;
+    background: #eaeaea;
+    color: #353535;
+
+    i {
+      margin-right: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: 500;
+      letter-spacing: 0em;
+      margin: 0;
+    }
+  }
+}
+
+.contReserver {
+  @include centre-flex();
+  flex-direction: column;
+
+  .txtReserver {
+    width: 275px;
+    height: 68px;
+    margin: 35px 0px 0px 0px;
+
+    //styleName: Section Title;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .txtDecouvre {
+    width: 315px;
+    height: 46px;
+    margin: 0;
+
+    //styleName: Paragraph;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    color: #353535;
+  }
+
+  .btnExplorer {
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(355deg, #9356dc -11.44%, #ff79da 123.93%);
+    box-shadow: 0px 4px 10px 0px #00000040;
+
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px 0px 50px 0px;
+
+    &:hover {
+      background: linear-gradient(355deg, #9356dc -60.2%, #ff79da 110.74%),
+        linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.15),
+          rgba(255, 255, 255, 0.15)
+        );
+      box-shadow: 0px 4px 15px 0px #00000059;
+    }
+  }
+}

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 *,
 ::before,
 ::after {
@@ -110,6 +109,47 @@ body {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
 }
 
+.contFooter {
+  width: 100%;
+  height: 186px;
+  background: #353535;
+  display: flex;
+  flex-direction: column;
+}
+.contFooter .logoFooter {
+  width: 139px;
+  height: 27px;
+  margin: 25px 0 0 15px;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.contFooter .liensUtiles {
+  width: 100%;
+}
+.contFooter .liensUtiles ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px 0 0 19px;
+}
+.contFooter .liensUtiles li {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.contFooter .liensUtiles i {
+  margin-right: 5px;
+}
+
 .contFonctionnement {
   display: flex;
   align-items: center;
@@ -142,7 +182,7 @@ body {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  width: 375px;
   gap: 10px;
 }
 .contFonctionnement .contOrganisations .contOrganisation {
@@ -196,7 +236,7 @@ body {
 
 .contRestaurants {
   width: 100%;
-  min-height: 600px; /* Permet au conteneur de s'agrandir si nécessaire */
+  min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -260,48 +300,7 @@ body {
   width: 22px;
 }
 
-.contFooter {
-  width: 100%;
-  height: 186px;
-  background: #353535;
-  display: flex;
-  flex-direction: column;
-}
-.contFooter .logoFooter {
-  width: 139px;
-  height: 27px;
-  margin: 25px 0 0 15px;
-  font-family: "Shrikhand", sans-serif;
-  font-size: 18px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: white;
-}
-.contFooter .liensUtiles {
-  width: 100%;
-}
-.contFooter .liensUtiles ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 15px 0 0 19px;
-}
-.contFooter .liensUtiles li {
-  color: white;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  text-align: left;
-  margin-bottom: 10px;
-}
-.contFooter .liensUtiles i {
-  margin-right: 5px;
-}
-
-@media (min-width: 1024px) {
+@media (min-width: 1150px) {
   .contHeader {
     height: 146px;
   }
@@ -330,7 +329,7 @@ body {
   }
   .contFonctionnement .titreWrapper {
     margin-bottom: 35px;
-    width: 1104px;
+    width: 1030px;
   }
   .contFonctionnement .contOrganisations {
     width: 100%;
@@ -353,21 +352,21 @@ body {
     text-align: left;
   }
   .contRestaurants .restaurants {
-    width: 1080px;
-    height: 552px;
+    width: 1160px;
+    height: 694px;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 50px;
-    margin-bottom: 80px;
+    gap: 47px 94px;
+    margin-bottom: 60px;
   }
   .contRestaurants .restaurants .rest {
     position: relative;
     width: 490px;
-    height: 270px;
+    height: 319px;
   }
   .contRestaurants .restaurants .rest .imgRestaurant {
     width: 490px;
-    height: 200px;
+    height: 251px;
   }
   .contFooter {
     width: 100%;

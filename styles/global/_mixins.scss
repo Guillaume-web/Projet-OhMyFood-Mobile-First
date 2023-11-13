@@ -1,0 +1,20 @@
+// Mixin pour media queries
+@mixin respond-to($media) {
+  @if $media == mobile {
+    @media (min-width: $breakpoint-mobile) {
+      @content;
+    }
+  } @else if $media == desktop {
+    @media (min-width: $breakpoint-desktop) {
+      @content;
+    }
+  }
+}
+
+// Mixin
+
+@mixin centre-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
