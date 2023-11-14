@@ -11,6 +11,48 @@ body {
   height: 100vh;
   font-family: "Roboto", sans-serif;
   background: #f6f6f6;
+  text-decoration: none;
+}
+
+.contFooter {
+  width: 100%;
+  height: 186px;
+  background: #353535;
+  display: flex;
+  flex-direction: column;
+}
+.contFooter .logoFooter {
+  width: 139px;
+  height: 27px;
+  margin: 25px 0 0 15px;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.contFooter .liensUtiles {
+  width: 100%;
+}
+.contFooter .liensUtiles ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px 0 0 19px;
+}
+.contFooter .liensUtiles li {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.contFooter .liensUtiles i {
+  margin-right: 5px;
 }
 
 .contHeader {
@@ -31,7 +73,7 @@ body {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
   z-index: 2;
 }
-.contHeader .contLogo h1 {
+.contHeader .contLogo a, .contHeader .contLogo h1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,6 +86,7 @@ body {
   height: 36px;
   width: 197px;
   color: #101010;
+  text-decoration: none;
 }
 .contHeader .localisation {
   display: flex;
@@ -107,47 +150,6 @@ body {
 .contReserver .btnExplorer:hover {
   background: linear-gradient(355deg, #9356dc -60.2%, #ff79da 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
-}
-
-.contFooter {
-  width: 100%;
-  height: 186px;
-  background: #353535;
-  display: flex;
-  flex-direction: column;
-}
-.contFooter .logoFooter {
-  width: 139px;
-  height: 27px;
-  margin: 25px 0 0 15px;
-  font-family: "Shrikhand", sans-serif;
-  font-size: 18px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: white;
-}
-.contFooter .liensUtiles {
-  width: 100%;
-}
-.contFooter .liensUtiles ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 15px 0 0 19px;
-}
-.contFooter .liensUtiles li {
-  color: white;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  text-align: left;
-  margin-bottom: 10px;
-}
-.contFooter .liensUtiles i {
-  margin-right: 5px;
 }
 
 .contFonctionnement {
