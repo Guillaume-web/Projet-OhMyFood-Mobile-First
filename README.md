@@ -8,9 +8,9 @@
 
 ## 🌟 À propos du projet
 
-- **Mobile First** : L'application est optimisée pour les mobiles.
-- **Desktop Ready** : Profitez d'une expérience cohérente sur ordinateur.
-- **Technologies** : Construit avec HTML5, JavaScript et une touche de magie SASS/SCSS pour des styles élégants et modernes.
+- **Mobile First**
+- **Desktop Ready**
+- **Technologies** : HTML5, JavaScript et SASS/SCSS.
 
 ## 📲 État du projet
 
